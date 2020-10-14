@@ -17,6 +17,9 @@
 		94E508742530C38F00B4C287 /* KnowsSoccerWellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E508732530C38F00B4C287 /* KnowsSoccerWellUITests.swift */; };
 		94E5088525332FED00B4C287 /* IntroUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E5088425332FED00B4C287 /* IntroUIView.swift */; };
 		94E5088A2533302200B4C287 /* MainUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E508892533302200B4C287 /* MainUIView.swift */; };
+		94E508A52537323E00B4C287 /* ScheduleUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E508A42537323E00B4C287 /* ScheduleUIView.swift */; };
+		94E508AA2537325C00B4C287 /* LeagueRankUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E508A92537325C00B4C287 /* LeagueRankUIView.swift */; };
+		94E508AF253732A300B4C287 /* SettingUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E508AE253732A300B4C287 /* SettingUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		94E508752530C38F00B4C287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94E5088425332FED00B4C287 /* IntroUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroUIView.swift; sourceTree = "<group>"; };
 		94E508892533302200B4C287 /* MainUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUIView.swift; sourceTree = "<group>"; };
+		94E508A42537323E00B4C287 /* ScheduleUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleUIView.swift; sourceTree = "<group>"; };
+		94E508A92537325C00B4C287 /* LeagueRankUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueRankUIView.swift; sourceTree = "<group>"; };
+		94E508AE253732A300B4C287 /* SettingUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,9 @@
 				94E508572530C38F00B4C287 /* Preview Content */,
 				94E5088425332FED00B4C287 /* IntroUIView.swift */,
 				94E508892533302200B4C287 /* MainUIView.swift */,
+				94E508A42537323E00B4C287 /* ScheduleUIView.swift */,
+				94E508A92537325C00B4C287 /* LeagueRankUIView.swift */,
+				94E508AE253732A300B4C287 /* SettingUIView.swift */,
 			);
 			path = KnowsSoccerWell;
 			sourceTree = "<group>";
@@ -272,9 +281,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				94E5085B2530C38F00B4C287 /* Persistence.swift in Sources */,
+				94E508AA2537325C00B4C287 /* LeagueRankUIView.swift in Sources */,
 				94E5088525332FED00B4C287 /* IntroUIView.swift in Sources */,
 				94E5085E2530C38F00B4C287 /* KnowsSoccerWell.xcdatamodeld in Sources */,
+				94E508A52537323E00B4C287 /* ScheduleUIView.swift in Sources */,
 				94E508542530C38E00B4C287 /* ContentView.swift in Sources */,
+				94E508AF253732A300B4C287 /* SettingUIView.swift in Sources */,
 				94E508522530C38E00B4C287 /* KnowsSoccerWellApp.swift in Sources */,
 				94E5088A2533302200B4C287 /* MainUIView.swift in Sources */,
 			);

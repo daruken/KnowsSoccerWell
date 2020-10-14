@@ -8,8 +8,26 @@
 import SwiftUI
 
 struct MainUIView: View {
+    
+    init() {
+        UITabBar.appearance().barTintColor = UIColor.init(red: 90/255, green: 0/255, blue: 0/255, alpha: 1)
+    }
+    
     var body: some View {
-        Text("Hello, ManU!")
+        TabView {
+            ScheduleUIView().tabItem {
+                Text("일정")
+            }
+            
+            LeagueRankUIView().tabItem {
+                Text("순위")
+            }
+            
+            SettingUIView().tabItem {
+                Text("설정")
+            }
+        }.accentColor(.white)
+        
     }
 }
 
